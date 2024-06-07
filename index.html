@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="./assets/fonts/static/Karla-Bold.ttf">
+  <title>Frontend Mentor | Contact form</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <!-- <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style> -->
+</head>
+<body>
+<div class="main-contact">
+  <p class="title">Contact Us</p>
+  <div class="first-name">
+    <p class="input-label">First Name <span>*</span></p>
+    <p class="input-label">Last Name <span>*</span></p>
+    <input class="first-row-input" type="text" name="first-name" id="first-name">
+    <input class="first-row-input" type="text" name="last-name" id="last-name">
+  </div>
+  <div class="email">
+    <p class="input-label-one">Email Address <span>*</span></p>
+    <input class="second-row-input" type="text" name="email" id="email">
+  </div>
+  <div class="query-type">
+    <p class="input-label-two">Query Type <span>*</span></p>
+    <div class="general">
+      <input class="general-radio" type="radio" name="general-enquiry" id="general-enquiry">
+    <label for="general-enquiry">General Enquiry</label>
+    </div>
+    <div class="support">
+      <input class="support-radio" type="radio" name="support-request" id="support-request">
+    <label for="support-request">Support Request</label>
+    </div>
+    <div class="message">
+      <p class="input-label-one">Message <span>*</span></p>
+      <input class="last-row-input" type="text" name="message" id="message">
+    </div>
+    <div class="consent">
+      <input type="checkbox" name="consent-checkbox" id="consent-checkbox">
+      <label class="consent-label" for="consent-checkbox">I consent to being contacted by the team</label>
+    </div>
+    <div class="submit-button">
+     <p>Submit</p>
+    </div>
+  </div>
+  
+  <!-- 
+  This field is required
+
+  Last Name
+  This field is required
+
+  Email Address
+  Please enter a valid email address
+  This field is required
+
+  Query Type
+  General Enquiry
+  Support Request
+  Please select a query type
+
+  Message
+  This field is required
+
+  I consent to being contacted by the team
+  To submit this form, please consent to being contacted
+
+  Submit
+
+  Message Sent!
+  Thanks for completing the form. We'll be in touch soon! -->
+</div>
+  
+  
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+</body>
+</html>
